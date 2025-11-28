@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:33:32.269Z",
+  "generated_at": "2026-10-04T18:39:57.136Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -26,6 +26,84 @@
       "last_pushed_at": "2026-10-04T18:33:31.640Z",
       "language": "python",
       "lines": 54
+    },
+    "problem:1": {
+      "kind": "problem",
+      "id": "1",
+      "title": "Matrix-Vector Dot Product",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1",
+      "path": "problems/0001-matrix-vector-dot-product",
+      "first_solved_at": "2025-11-28T07:32:51.034Z",
+      "last_pushed_at": "2025-11-28T07:32:51.034Z",
+      "language": "python",
+      "lines": 10
+    },
+    "problem:2": {
+      "kind": "problem",
+      "id": "2",
+      "title": "Transpose of a Matrix",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/2",
+      "path": "problems/0002-transpose-of-a-matrix",
+      "first_solved_at": "2025-11-28T07:41:44.481Z",
+      "last_pushed_at": "2025-11-28T07:41:44.481Z",
+      "language": "python",
+      "lines": 10
+    },
+    "problem:83": {
+      "kind": "problem",
+      "id": "83",
+      "title": "Dot Product Calculator",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/83",
+      "path": "problems/0083-dot-product-calculator",
+      "first_solved_at": "2025-11-28T07:43:19.565Z",
+      "last_pushed_at": "2025-11-28T07:43:19.565Z",
+      "language": "python",
+      "lines": 11
+    },
+    "problem:5": {
+      "kind": "problem",
+      "id": "5",
+      "title": "Scalar Multiplication of a Matrix",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/5",
+      "path": "problems/0005-scalar-multiplication-of-a-matrix",
+      "first_solved_at": "2025-11-28T07:46:02.529Z",
+      "last_pushed_at": "2025-11-28T07:46:02.529Z",
+      "language": "python",
+      "lines": 8
+    },
+    "problem:76": {
+      "kind": "problem",
+      "id": "76",
+      "title": "Calculate Cosine Similarity Between Vectors",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/76",
+      "path": "problems/0076-calculate-cosine-similarity-between-vectors",
+      "first_solved_at": "2025-11-28T07:50:55.337Z",
+      "last_pushed_at": "2025-11-28T07:50:55.337Z",
+      "language": "python",
+      "lines": 10
+    },
+    "problem:4": {
+      "kind": "problem",
+      "id": "4",
+      "title": "Calculate Mean by Row or Column",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/4",
+      "path": "problems/0004-calculate-mean-by-row-or-column",
+      "first_solved_at": "2025-11-28T07:59:45.647Z",
+      "last_pushed_at": "2025-11-28T07:59:45.647Z",
+      "language": "python",
+      "lines": 19
     }
   }
 }
