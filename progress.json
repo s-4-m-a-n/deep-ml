@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:39:57.136Z",
+  "generated_at": "2026-10-04T18:39:59.372Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -104,6 +104,45 @@
       "last_pushed_at": "2025-11-28T07:59:45.647Z",
       "language": "python",
       "lines": 19
+    },
+    "problem:14": {
+      "kind": "problem",
+      "id": "14",
+      "title": "Linear Regression Using Normal Equation",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/14",
+      "path": "problems/0014-linear-regression-using-normal-equation",
+      "first_solved_at": "2025-12-01T11:14:57.970Z",
+      "last_pushed_at": "2025-12-01T11:14:57.970Z",
+      "language": "python",
+      "lines": 8
+    },
+    "problem:3": {
+      "kind": "problem",
+      "id": "3",
+      "title": "Reshape Matrix",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/3",
+      "path": "problems/0003-reshape-matrix",
+      "first_solved_at": "2025-12-01T11:32:43.857Z",
+      "last_pushed_at": "2025-12-01T11:32:43.857Z",
+      "language": "python",
+      "lines": 11
+    },
+    "problem:42": {
+      "kind": "problem",
+      "id": "42",
+      "title": "Implement ReLU Activation Function",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/42",
+      "path": "problems/0042-implement-relu-activation-function",
+      "first_solved_at": "2025-12-01T11:50:52.912Z",
+      "last_pushed_at": "2025-12-01T11:50:52.912Z",
+      "language": "python",
+      "lines": 3
     }
   }
 }
