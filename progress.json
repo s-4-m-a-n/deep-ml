@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:39:59.372Z",
+  "generated_at": "2026-10-04T18:40:01.140Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -143,6 +143,110 @@
       "last_pushed_at": "2025-12-01T11:50:52.912Z",
       "language": "python",
       "lines": 3
+    },
+    "problem:880": {
+      "kind": "problem",
+      "id": "880",
+      "title": "Create a Float Tensor from a Python List",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/880",
+      "path": "problems/0880-create-a-float-tensor-from-a-python-list",
+      "first_solved_at": "2026-05-19T05:48:16.401Z",
+      "last_pushed_at": "2026-05-19T05:48:16.401Z",
+      "language": "python",
+      "lines": 6
+    },
+    "problem:881": {
+      "kind": "problem",
+      "id": "881",
+      "title": "Reshape and Transpose a Tensor",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/881",
+      "path": "problems/0881-reshape-and-transpose-a-tensor",
+      "first_solved_at": "2026-05-19T05:55:15.095Z",
+      "last_pushed_at": "2026-05-19T05:55:15.095Z",
+      "language": "python",
+      "lines": 9
+    },
+    "problem:882": {
+      "kind": "problem",
+      "id": "882",
+      "title": "Add a Bias Vector to a Batch via Broadcasting",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/882",
+      "path": "problems/0882-add-a-bias-vector-to-a-batch-via-broadcasting",
+      "first_solved_at": "2026-05-19T05:57:49.004Z",
+      "last_pushed_at": "2026-05-19T05:57:49.004Z",
+      "language": "python",
+      "lines": 9
+    },
+    "problem:883": {
+      "kind": "problem",
+      "id": "883",
+      "title": "Implement a Linear Layer Forward Pass with Matrix Multiplication",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/883",
+      "path": "problems/0883-implement-a-linear-layer-forward-pass-with-matrix-multiplication",
+      "first_solved_at": "2026-05-19T06:04:35.687Z",
+      "last_pushed_at": "2026-05-19T06:04:35.687Z",
+      "language": "python",
+      "lines": 7
+    },
+    "problem:884": {
+      "kind": "problem",
+      "id": "884",
+      "title": "Compute a Gradient with PyTorch Autograd",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/884",
+      "path": "problems/0884-compute-a-gradient-with-pytorch-autograd",
+      "first_solved_at": "2026-05-19T06:08:46.233Z",
+      "last_pushed_at": "2026-05-19T06:08:46.233Z",
+      "language": "python",
+      "lines": 9
+    },
+    "problem:885": {
+      "kind": "problem",
+      "id": "885",
+      "title": "Build a Linear Regression Model with nn.Module",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/885",
+      "path": "problems/0885-build-a-linear-regression-model-with-nn-module",
+      "first_solved_at": "2026-05-19T06:12:32.249Z",
+      "last_pushed_at": "2026-05-19T06:12:32.249Z",
+      "language": "python",
+      "lines": 13
+    },
+    "problem:886": {
+      "kind": "problem",
+      "id": "886",
+      "title": "Run One Training Step: Forward, Loss, Backward, Optimizer",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/886",
+      "path": "problems/0886-run-one-training-step-forward-loss-backward-optimizer",
+      "first_solved_at": "2026-05-19T06:23:00.647Z",
+      "last_pushed_at": "2026-05-19T06:23:00.647Z",
+      "language": "python",
+      "lines": 17
+    },
+    "problem:887": {
+      "kind": "problem",
+      "id": "887",
+      "title": "Build an MLP with nn.Sequential",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/887",
+      "path": "problems/0887-build-an-mlp-with-nn-sequential",
+      "first_solved_at": "2026-05-19T16:24:44.714Z",
+      "last_pushed_at": "2026-05-19T16:24:44.714Z",
+      "language": "python",
+      "lines": 11
     }
   }
 }
