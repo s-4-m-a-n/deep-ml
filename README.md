@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**19** solved · 19 problems · 0 labs · 0 math
+**26** solved · 24 problems · 0 labs · 2 math
 
 ![Coverage](./coverage.svg)
 
@@ -18,19 +18,31 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Calculate Cosine Similarity Between Vectors](https://www.deep-ml.com/problems/76) | easy | 2025-11-28 | [solution](problems/0076-calculate-cosine-similarity-between-vectors) |
 | [Calculate Mean by Row or Column](https://www.deep-ml.com/problems/4) | easy | 2025-11-28 | [solution](problems/0004-calculate-mean-by-row-or-column) |
 | [Compute a Gradient with PyTorch Autograd](https://www.deep-ml.com/problems/884) | easy | 2026-05-19 | [solution](problems/0884-compute-a-gradient-with-pytorch-autograd) |
+| [Compute the Cross Product of Two 3D Vectors](https://www.deep-ml.com/problems/118) | easy | 2026-09-06 | [solution](problems/0118-compute-the-cross-product-of-two-3d-vectors) |
 | [Create a Float Tensor from a Python List](https://www.deep-ml.com/problems/880) | easy | 2026-05-19 | [solution](problems/0880-create-a-float-tensor-from-a-python-list) |
 | [Dot Product Calculator](https://www.deep-ml.com/problems/83) | easy | 2025-11-28 | [solution](problems/0083-dot-product-calculator) |
 | [Implement a Linear Layer Forward Pass with Matrix Multiplication](https://www.deep-ml.com/problems/883) | easy | 2026-05-19 | [solution](problems/0883-implement-a-linear-layer-forward-pass-with-matrix-multiplication) |
 | [Implement ReLU Activation Function](https://www.deep-ml.com/problems/42) | easy | 2025-12-01 | [solution](problems/0042-implement-relu-activation-function) |
+| [L2 Normalization Along an Axis](https://www.deep-ml.com/problems/1022) | easy | 2026-09-06 | [solution](problems/1022-l2-normalization-along-an-axis) |
 | [Linear Regression Using Normal Equation](https://www.deep-ml.com/problems/14) | easy | 2025-12-01 | [solution](problems/0014-linear-regression-using-normal-equation) |
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2025-11-28 | [solution](problems/0001-matrix-vector-dot-product) |
+| [Pairwise Cosine Similarity Matrix](https://www.deep-ml.com/problems/1072) | easy | 2026-09-06 | [solution](problems/1072-pairwise-cosine-similarity-matrix) |
 | [Reshape and Transpose a Tensor](https://www.deep-ml.com/problems/881) | easy | 2026-05-19 | [solution](problems/0881-reshape-and-transpose-a-tensor) |
 | [Reshape Matrix](https://www.deep-ml.com/problems/3) | easy | 2025-12-01 | [solution](problems/0003-reshape-matrix) |
 | [Run One Training Step: Forward, Loss, Backward, Optimizer](https://www.deep-ml.com/problems/886) | easy | 2026-05-19 | [solution](problems/0886-run-one-training-step-forward-loss-backward-optimizer) |
 | [Scalar Multiplication of a Matrix](https://www.deep-ml.com/problems/5) | easy | 2025-11-28 | [solution](problems/0005-scalar-multiplication-of-a-matrix) |
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2025-11-28 | [solution](problems/0002-transpose-of-a-matrix) |
+| [Vector Element-wise Sum](https://www.deep-ml.com/problems/121) | easy | 2026-09-06 | [solution](problems/0121-vector-element-wise-sum) |
+| [Vector Norms (L1/L2/L-inf) and the Frobenius Norm](https://www.deep-ml.com/problems/328) | easy | 2026-09-06 | [solution](problems/0328-vector-norms-l1-l2-l-inf-and-the-frobenius-norm) |
 | [Compute the Null Space (Kernel) of a Matrix](https://www.deep-ml.com/problems/330) | medium | 2026-10-04 | [solution](problems/0330-compute-the-null-space-kernel-of-a-matrix) |
 | [Matrix Rank](https://www.deep-ml.com/problems/329) | medium | 2026-10-04 | [solution](problems/0329-matrix-rank) |
+
+## Math
+
+| | Difficulty | Solved | |
+| --- | --- | --- | --- |
+| [Vector Operations](https://www.deep-ml.com/math-problems/7) | easy | 2026-09-06 | [solution](math/0007-vector-operations) |
+| [Vector Norms and Linear Independence](https://www.deep-ml.com/math-problems/8) | medium | 2026-09-06 | [solution](math/0008-vector-norms-and-linear-independence) |
 
 ---
 

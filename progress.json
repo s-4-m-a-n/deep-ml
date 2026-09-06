@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:40:01.140Z",
+  "generated_at": "2026-10-04T18:40:02.928Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -247,6 +247,93 @@
       "last_pushed_at": "2026-05-19T16:24:44.714Z",
       "language": "python",
       "lines": 11
+    },
+    "math:7": {
+      "kind": "math",
+      "id": "7",
+      "title": "Vector Operations",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/7",
+      "path": "math/0007-vector-operations",
+      "first_solved_at": "2026-09-06T05:42:57.016Z",
+      "last_pushed_at": "2026-09-06T05:42:57.016Z"
+    },
+    "math:8": {
+      "kind": "math",
+      "id": "8",
+      "title": "Vector Norms and Linear Independence",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/8",
+      "path": "math/0008-vector-norms-and-linear-independence",
+      "first_solved_at": "2026-09-06T05:53:02.435Z",
+      "last_pushed_at": "2026-09-06T05:53:02.435Z"
+    },
+    "problem:121": {
+      "kind": "problem",
+      "id": "121",
+      "title": "Vector Element-wise Sum",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/121",
+      "path": "problems/0121-vector-element-wise-sum",
+      "first_solved_at": "2026-09-06T05:56:15.532Z",
+      "last_pushed_at": "2026-09-06T05:56:15.532Z",
+      "language": "python",
+      "lines": 9
+    },
+    "problem:118": {
+      "kind": "problem",
+      "id": "118",
+      "title": "Compute the Cross Product of Two 3D Vectors",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/118",
+      "path": "problems/0118-compute-the-cross-product-of-two-3d-vectors",
+      "first_solved_at": "2026-09-06T05:59:08.972Z",
+      "last_pushed_at": "2026-09-06T05:59:08.972Z",
+      "language": "python",
+      "lines": 5
+    },
+    "problem:328": {
+      "kind": "problem",
+      "id": "328",
+      "title": "Vector Norms (L1/L2/L-inf) and the Frobenius Norm",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/328",
+      "path": "problems/0328-vector-norms-l1-l2-l-inf-and-the-frobenius-norm",
+      "first_solved_at": "2026-09-06T06:14:19.022Z",
+      "last_pushed_at": "2026-09-06T06:14:19.022Z",
+      "language": "python",
+      "lines": 34
+    },
+    "problem:1022": {
+      "kind": "problem",
+      "id": "1022",
+      "title": "L2 Normalization Along an Axis",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1022",
+      "path": "problems/1022-l2-normalization-along-an-axis",
+      "first_solved_at": "2026-09-06T06:28:36.092Z",
+      "last_pushed_at": "2026-09-06T06:28:36.092Z",
+      "language": "python",
+      "lines": 17
+    },
+    "problem:1072": {
+      "kind": "problem",
+      "id": "1072",
+      "title": "Pairwise Cosine Similarity Matrix",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/1072",
+      "path": "problems/1072-pairwise-cosine-similarity-matrix",
+      "first_solved_at": "2026-09-06T06:51:58.210Z",
+      "last_pushed_at": "2026-09-06T06:51:58.210Z",
+      "language": "python",
+      "lines": 9
     }
   }
 }
