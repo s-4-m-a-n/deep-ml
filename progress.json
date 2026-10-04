@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:40:07.921Z",
+  "generated_at": "2026-10-04T18:40:09.344Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -257,7 +257,7 @@
       "url": "https://www.deep-ml.com/math-problems/7",
       "path": "math/0007-vector-operations",
       "first_solved_at": "2026-09-06T05:42:57.016Z",
-      "last_pushed_at": "2026-09-06T05:42:57.016Z"
+      "last_pushed_at": "2026-10-04T18:40:09.342Z"
     },
     "math:8": {
       "kind": "math",
@@ -268,7 +268,7 @@
       "url": "https://www.deep-ml.com/math-problems/8",
       "path": "math/0008-vector-norms-and-linear-independence",
       "first_solved_at": "2026-09-06T05:53:02.435Z",
-      "last_pushed_at": "2026-09-06T05:53:02.435Z"
+      "last_pushed_at": "2026-10-04T18:40:09.342Z"
     },
     "problem:121": {
       "kind": "problem",
@@ -344,7 +344,7 @@
       "url": "https://www.deep-ml.com/math-problems/9",
       "path": "math/0009-matrix-basics",
       "first_solved_at": "2026-09-09T05:10:36.745Z",
-      "last_pushed_at": "2026-09-09T05:10:36.745Z"
+      "last_pushed_at": "2026-10-04T18:40:09.342Z"
     },
     "math:10": {
       "kind": "math",
@@ -355,7 +355,7 @@
       "url": "https://www.deep-ml.com/math-problems/10",
       "path": "math/0010-matrix-multiplication",
       "first_solved_at": "2026-09-09T05:13:20.401Z",
-      "last_pushed_at": "2026-09-09T05:13:20.401Z"
+      "last_pushed_at": "2026-10-04T18:40:09.342Z"
     },
     "problem:35": {
       "kind": "problem",
@@ -379,7 +379,7 @@
       "url": "https://www.deep-ml.com/math-problems/11",
       "path": "math/0011-determinants-and-trace",
       "first_solved_at": "2026-09-09T06:04:00.557Z",
-      "last_pushed_at": "2026-09-09T06:04:00.557Z"
+      "last_pushed_at": "2026-10-04T18:40:09.342Z"
     },
     "math:12": {
       "kind": "math",
@@ -390,7 +390,7 @@
       "url": "https://www.deep-ml.com/math-problems/12",
       "path": "math/0012-inverse-and-rank",
       "first_solved_at": "2026-09-09T06:09:16.677Z",
-      "last_pushed_at": "2026-09-09T06:09:16.677Z"
+      "last_pushed_at": "2026-10-04T18:40:09.342Z"
     },
     "math:46": {
       "kind": "math",
@@ -401,7 +401,7 @@
       "url": "https://www.deep-ml.com/math-problems/46",
       "path": "math/0046-the-four-fundamental-subspaces",
       "first_solved_at": "2026-09-09T16:52:59.776Z",
-      "last_pushed_at": "2026-09-09T16:52:59.776Z"
+      "last_pushed_at": "2026-10-04T18:40:09.342Z"
     },
     "problem:195": {
       "kind": "problem",
