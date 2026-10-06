@@ -1,40 +1,46 @@
 import numpy as np
 
-def rref(matrix):
-    matrix = np.array(matrix, dtype=float)
+def rref(matrix, tol=1e-10):
+    A = np.array(matrix, dtype=np.float64)
 
-    m, n = matrix.shape
+    n_rows, n_cols = A.shape
     pivot_row = 0
 
-    for pivot_col in range(n):
+    for c in range(n_cols):
 
-        # Find a non-zero pivot
-        pivot = None
+        if pivot_row >= n_rows:
+            break
 
-        for r in range(pivot_row, m):
-            if matrix[r, pivot_col] != 0:
-                pivot = r
-                break
+        # Find largest absolute value in this column
+        max_offset_row = np.argmax(
+            np.abs(A[pivot_row:, c])
+        )
+        max_row_idx = pivot_row + max_offset_row
 
-        if pivot is None:
+        # No valid pivot
+        if np.abs(A[max_row_idx, c]) < 1e-10:
             continue
 
-        # Swap rows
-        matrix[[pivot_row, pivot]] = matrix[[pivot, pivot_row]]
+        # Swap pivot row
+        A[[pivot_row, max_row_idx]] = \
+            A[[max_row_idx, pivot_row]]
 
-        # Normalize pivot row
-        matrix[pivot_row] /= matrix[pivot_row, pivot_col]
+        # Normalize pivot to 1
+        A[pivot_row] /= A[pivot_row, c]
 
-        # Eliminate pivot column from all other rows
-        for r in range(m):
+        # Eliminate ABOVE and BELOW pivot
+        for r in range(n_rows):
+
             if r == pivot_row:
                 continue
 
-            matrix[r] -= matrix[r, pivot_col] * matrix[pivot_row]
+            factor = A[r, c]
+
+            A[r] -= factor * A[pivot_row]
 
         pivot_row += 1
 
-        if pivot_row == m:
-            break
+    # Remove floating-point noise
+    A[np.abs(A) < tol] = 0
 
-    return matrix
+    return A
