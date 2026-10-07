@@ -21,7 +21,7 @@ def gaussian_elimination(A, b):
 
 	# ========== forward elimination ========
 	for c in range(n):
-		if pivot_row > m:
+		if pivot_row >= m:
 			break
 		
 		# find max value pivot
