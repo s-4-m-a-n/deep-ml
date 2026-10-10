@@ -25,7 +25,7 @@ def conjugate_gradient(A, b, n, x0=None, tol=1e-8):
 		x = x + (alpha * p)
 		r_new = b - A @ x
 
-		if np.all(np.abs(r_new)) < tol:
+		if np.linalg.norm(r_new) < tol:
 			break
 		
 		beta = (r_new.T @ r_new) / (r.T @ r)
