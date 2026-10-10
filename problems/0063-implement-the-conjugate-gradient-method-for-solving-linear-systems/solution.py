@@ -19,7 +19,7 @@ def conjugate_gradient(A, b, n, x0=None, tol=1e-8):
 
 	# calculate initial residual vector
 	r = b - A @ x
-	p = r
+	p = r.copy()
 	for _ in range(n):
 		alpha = ( r.T @ r )/ (p.T @ A @ p)
 		x = x + (alpha * p)
