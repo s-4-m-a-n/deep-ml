@@ -7,8 +7,12 @@ def orthogonal_projection(v, L):
 	:param L: The line vector defining the direction of projection
 	:return: List representing the projection of v onto L
 	"""
-	proj_v = [0]*len(v)
-	unit_L = sum(i**2 for i in L)
-	for i in range(len(v)):
-		proj_v[i] = (v[i] * L[i]) * L[i]/ unit_L
+	dot_vL = sum(vi * Li for vi, Li in zip(v, L))
+	dot_LL = sum(Li * Li for Li in L)
+
+	if dot_LL == 0:
+		raise ValueError("must be non zero length")
+	
+	scalar = dot_vL / dot_LL
+	proj_v = [scalar * Li for Li in L]
 	return proj_v
