@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:49:08.558Z",
+  "generated_at": "2026-10-11T15:16:43.794Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -552,6 +552,17 @@
       "path": "math/0034-least-squares-and-the-normal-equations",
       "first_solved_at": "2026-10-11T14:49:05.818Z",
       "last_pushed_at": "2026-10-11T14:49:05.818Z"
+    },
+    "math:47": {
+      "kind": "math",
+      "id": "47",
+      "title": "Gram–Schmidt and Orthonormal Bases",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/47",
+      "path": "math/0047-gram-schmidt-and-orthonormal-bases",
+      "first_solved_at": "2026-10-11T15:16:43.017Z",
+      "last_pushed_at": "2026-10-11T15:16:43.017Z"
     }
   }
 }
