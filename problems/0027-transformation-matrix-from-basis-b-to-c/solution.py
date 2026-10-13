@@ -3,4 +3,4 @@ def transform_basis(B: list[list[int]], C: list[list[int]]) -> list[list[float]]
 	B = np.array(B)
 	C = np.array(C)
 
-	return np.linalg.inv(C) @ B
+	return np.linalg.solve(C, B)
