@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:43:11.609Z",
+  "generated_at": "2026-10-15T17:57:17.240Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -613,6 +613,17 @@
       "path": "math/0048-pseudoinverse-and-minimum-norm-least-squares",
       "first_solved_at": "2026-10-14T16:43:08.079Z",
       "last_pushed_at": "2026-10-14T16:43:08.079Z"
+    },
+    "math:15": {
+      "kind": "math",
+      "id": "15",
+      "title": "Matrix Decompositions: LU and QR",
+      "difficulty": "hard",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/15",
+      "path": "math/0015-matrix-decompositions-lu-and-qr",
+      "first_solved_at": "2026-10-15T17:57:15.755Z",
+      "last_pushed_at": "2026-10-15T17:57:15.755Z"
     }
   }
 }
