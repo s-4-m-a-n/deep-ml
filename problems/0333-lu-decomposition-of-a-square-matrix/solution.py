@@ -11,23 +11,21 @@ def lu_decomposition(A: list) -> tuple:
         tuple: (L, U) where L is lower triangular with 1s on diagonal,
                U is upper triangular, and A = L @ U
     """
-    A = np.array(A, dtype=float)
+    A = np.array(A)
     n = A.shape[0]
-    
-    L = np.eye(n, dtype=float)
-    U = np.zeros((n, n), dtype=float)
-    
-    for i in range(n):
-        # Compute Upper Triangular matrix (U)
-        for k in range(i, n):
+
+    L = np.eye(n)
+    U = np.zeros((n, n))
+
+    for i in range(n): # for each col of U
+        for k in range(i, n): #upper trangle
             s1 = sum(L[i][j] * U[j][k] for j in range(i))
             U[i][k] = A[i][k] - s1
-            
-        # Compute Lower Triangular matrix (L)
-        for k in range(i + 1, n):
-            s2 = sum(L[k][j] * U[j][i] for j in range(i))
+        
+        for k in range(i+1, n): # for each row of L
+            s1 = sum(L[k][j] * U[j][i] for j in range(i))
             if U[i][i] == 0:
                 raise ValueError("Division by zero: Pivot is zero. LU decomposition without pivoting fails.")
-            L[k][i] = (A[k][i] - s2) / U[i][i]
-            
+            L[k][i] = (A[k][i] - s1) / U[i][i]
+
     return L, U
