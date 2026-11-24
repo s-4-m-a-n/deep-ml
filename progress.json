@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:03:20.481Z",
+  "generated_at": "2026-11-24T17:31:31.647Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -707,6 +707,19 @@
       "path": "math/0038-log-likelihood-gradients",
       "first_solved_at": "2026-11-24T17:03:19.651Z",
       "last_pushed_at": "2026-11-24T17:03:19.651Z"
+    },
+    "problem:1034": {
+      "kind": "problem",
+      "id": "1034",
+      "title": "Chat Template Encoding for Instruct Models",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/1034",
+      "path": "problems/1034-chat-template-encoding-for-instruct-models",
+      "first_solved_at": "2026-11-24T17:31:30.738Z",
+      "last_pushed_at": "2026-11-24T17:31:30.738Z",
+      "language": "python",
+      "lines": 47
     }
   }
 }
