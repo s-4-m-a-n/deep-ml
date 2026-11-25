@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**58** solved · 41 problems · 0 labs · 17 math
+**59** solved · 42 problems · 0 labs · 17 math
 
 ![Coverage](./coverage.svg)
 
@@ -42,6 +42,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Chat Template Encoding for Instruct Models](https://www.deep-ml.com/problems/1034) | medium | 2026-11-24 | [solution](problems/1034-chat-template-encoding-for-instruct-models) |
 | [Compute Orthonormal Basis for 2D Vectors](https://www.deep-ml.com/problems/117) | medium | 2026-10-12 | [solution](problems/0117-compute-orthonormal-basis-for-2d-vectors) |
 | [Compute the Null Space (Kernel) of a Matrix](https://www.deep-ml.com/problems/330) | medium | 2026-10-04 | [solution](problems/0330-compute-the-null-space-kernel-of-a-matrix) |
+| [Custom Collate Function for Instruction Finetuning](https://www.deep-ml.com/problems/1065) | medium | 2026-11-25 | [solution](problems/1065-custom-collate-function-for-instruction-finetuning) |
 | [Find the column space of a matrix](https://www.deep-ml.com/problems/68) | medium | 2026-10-05 | [solution](problems/0068-find-the-column-space-of-a-matrix) |
 | [Gauss-Seidel Method for Solving Linear Systems](https://www.deep-ml.com/problems/57) | medium | 2026-10-08 | [solution](problems/0057-gauss-seidel-method-for-solving-linear-systems) |
 | [Gaussian Elimination for Solving Linear Systems](https://www.deep-ml.com/problems/58) | medium | 2026-10-07 | [solution](problems/0058-gaussian-elimination-for-solving-linear-systems) |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:31:31.647Z",
+  "generated_at": "2026-11-25T17:59:04.699Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -720,6 +720,19 @@
       "last_pushed_at": "2026-11-24T17:31:30.738Z",
       "language": "python",
       "lines": 47
+    },
+    "problem:1065": {
+      "kind": "problem",
+      "id": "1065",
+      "title": "Custom Collate Function for Instruction Finetuning",
+      "difficulty": "medium",
+      "category": "NLP",
+      "url": "https://www.deep-ml.com/problems/1065",
+      "path": "problems/1065-custom-collate-function-for-instruction-finetuning",
+      "first_solved_at": "2026-11-25T17:59:03.721Z",
+      "last_pushed_at": "2026-11-25T17:59:03.721Z",
+      "language": "python",
+      "lines": 22
     }
   }
 }
