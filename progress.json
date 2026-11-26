@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T17:59:04.699Z",
+  "generated_at": "2026-11-26T18:01:49.665Z",
   "items": {
     "problem:330": {
       "kind": "problem",
@@ -733,6 +733,19 @@
       "last_pushed_at": "2026-11-25T17:59:03.721Z",
       "language": "python",
       "lines": 22
+    },
+    "problem:1066": {
+      "kind": "problem",
+      "id": "1066",
+      "title": "Mask Instruction Tokens for Loss Computation",
+      "difficulty": "medium",
+      "category": "NLP",
+      "url": "https://www.deep-ml.com/problems/1066",
+      "path": "problems/1066-mask-instruction-tokens-for-loss-computation",
+      "first_solved_at": "2026-11-26T18:01:48.845Z",
+      "last_pushed_at": "2026-11-26T18:01:48.845Z",
+      "language": "python",
+      "lines": 34
     }
   }
 }
